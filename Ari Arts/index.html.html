@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ari Arts - Portfólio</title>
+  <style>
+    /* ===== Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+
+    body {
+      background: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ===== Header ===== */
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    nav {
+      margin-top: 25px;
+    }
+
+    nav a {
+      margin: 0 12px;
+      font-weight: 500;
+      padding: 8px 15px;
+      border: 2px solid #f5f5f5;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    /* ===== Seções ===== */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    section h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #f39c12;
+      margin: 10px auto 0;
+    }
+
+    section p {
+      color: #bbb;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* ===== Portfólio ===== */
+    .grid {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .grid img {
+      width: 100%;
+      border-radius: 12px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(243, 156, 18, 0.6);
+    }
+
+    /* ===== Contato ===== */
+    .socials {
+      margin-top: 30px;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      font-size: 1.3rem;
+      border: 2px solid #f5f5f5;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #111;
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== Cabeçalho ===== -->
+  <header>
+    <h1>Ari Arts</h1>
+    <p>Arte autoral e exclusiva. Portfólio e loja de desenhos feitos com paixão.</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- ===== Sobre ===== -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou uma artista independente apaixonada por criar obras únicas que expressam emoção e estilo.  
+    O Ari Arts nasceu para compartilhar minha visão criativa e oferecer desenhos autorais para colecionadores, fãs e amantes da arte.</p>
+  </section>
+
+  <!-- ===== Portfólio ===== -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>Alguns dos meus trabalhos recentes:</p>
+    <div class="grid">
+      <img src="https://placehold.co/400x500?text=Arte+1" alt="Arte 1">
+      <img src="https://placehold.co/400x500?text=Arte+2" alt="Arte 2">
+      <img src="https://placehold.co/400x500?text=Arte+3" alt="Arte 3">
+      <img src="https://placehold.co/400x500?text=Arte+4" alt="Arte 4">
+      <img src="https://placehold.co/400x500?text=Arte+5" alt="Arte 5">
+      <img src="https://placehold.co/400x500?text=Arte+6" alt="Arte 6">
+    </div>
+  </section>
+
+  <!-- ===== Contato ===== -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Gostou de algum trabalho ou deseja encomendar uma arte exclusiva?  
+    Entre em contato comigo pelos canais abaixo:</p>
+    <div class="socials">
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+      <a href="mailto:ariarts@email.com">Email</a>
+      <a href="https://wa.me/seunumerodetelefone" target="_blank">WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== Rodapé ===== -->
+  <footer>
+    <p>© 2025 Ari Arts - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
